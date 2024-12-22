@@ -1,0 +1,32 @@
+Step 1: Install Python
+        -> Ensure Python is installed on your system. If not, download and install it from the official Python website.
+        -> Verify installation by running:
+        -> You can use the following commands to check if the python is installed.
+              python --version
+              or  
+              python3 --version
+Step 2: Install yt-dlp
+        -> Open a terminal (Command Prompt, PowerShell, or any shell).
+        -> Install yt-dlp using pip:
+        -> Use the following comamnd to install the module:
+             pip install yt-dlp
+        -> Install ffmpeg (required for merging audio and video streams):
+              For Windows Users:
+                  ->Download from FFmpeg official website.
+                  ->Add the bin folder to your system's PATH.
+              For Linux Users:
+                  ->sudo apt update
+                  ->sudo apt install ffmpeg
+              For macOS :
+                  ->brew install ffmpeg
+Step 3: Write the Python Script
+        -> Create a new Python script, e.g., yt_video_download.py.
+        -> Use the code given in the file of this repo:
+        -> Navigate to the script's directory using the terminal:
+        -> Run the following command:
+                python yt_video_download.py
+Step 5: Provide Input
+        -> Enter the YouTube URL: Provide the full video URL (e.g., https://www.youtube.com/watch?v=example).
+        -> Enter Save Directory: Specify where the video should be saved. Press Enter to use the current directory.
+Step 6: Verify the Download
+        -> Once the script completes, check the specified directory for the downloaded video file. It will be named after the video's title.
